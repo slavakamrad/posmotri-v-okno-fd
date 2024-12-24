@@ -1,1 +1,1 @@
-https://github.com/slavakamrad/posmotri_v_okno-fd
+https://github.com/slavakamrad/posmotri-v-okno-fd
