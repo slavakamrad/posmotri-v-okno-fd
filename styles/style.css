@@ -10,6 +10,7 @@ html {
 
 .page {
   display: flex;
+  justify-content: center;
   align-items: center;
   margin: auto;
   color: #fff;
@@ -69,8 +70,8 @@ ol {
 
 .result__video-container {
   position: relative;
-  height: 386px;
   width: 100%;
+  height: 386px;
 }
 
 .result__video {
@@ -203,8 +204,7 @@ a.content__card-link_current .content__video-card {
   width: fit-content;
   cursor: pointer;
 }
-
-.search-form__label:hover {
+.search-form__label:hover .search-form__label-text {
   text-decoration: underline;
   text-underline-offset: 3px;
 }
@@ -215,7 +215,6 @@ a.content__card-link_current .content__video-card {
   border-right: none;
   border-bottom: 1px solid #fff;
   border-left: none;
-  /* padding: 4px 0 2.5px 0; */
   color: #fff;
   font-family: inherit;
   font-size: 18px;
@@ -255,7 +254,7 @@ a.content__card-link_current .content__video-card {
   outline-offset: 1px;
 }
 
-.search-form__checkbox:checked+.search-form__pseudo-checkbox::after {
+.search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
   content: "";
   display: block;
   margin: 1px 0 0 1px;
